@@ -2,16 +2,27 @@
 
 Single source of truth for **SIH26171 / PRIVIS**.
 
-## Files
+## Start here
 
-- [`docs/RESEARCH.md`](docs/RESEARCH.md) — full idea brief for humans and coding agents
-- [`handdraw/architecture.png`](handdraw/architecture.png) — team hand-drawn architecture
-- [`handdraw/README.md`](handdraw/README.md) — how to use the drawing on Slide 3
+- [docs/RESEARCH.md](docs/RESEARCH.md) — full idea lock
+- [FILE-INVENTORY.md](FILE-INVENTORY.md) — every file that should exist
+- [handdraw/architecture.svg](handdraw/architecture.svg) — architecture diagram
+- [AGENT.md](AGENT.md) — prompt for other models
 
-## For an agent
+## Layout
 
 ```text
-Read docs/RESEARCH.md and handdraw/architecture.png before writing code or slides.
-Product name PRIVIS. Do not rename architecture boxes.
-Portal PPT: 6 official SIH slides. Architecture image on slide 3 only.
+docs/          RESEARCH.md + split sections
+handdraw/      architecture.svg (+ upload architecture.png in the web UI)
+skills/        five SIH PPT skills
+```
+
+Sister skills-only repo: https://github.com/yb175/privis-sih-ppt-skills
+
+## Agent prompt
+
+```text
+Read docs/RESEARCH.md and handdraw/architecture.svg.
+Product PRIVIS. Do not rename architecture boxes.
+Portal PPT: 6 official SIH slides. Architecture on slide 3 only.
 ```
