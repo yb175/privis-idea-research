@@ -1,12 +1,12 @@
 # Hand-drawn architecture
 
-Put the team drawing here as `architecture.png`.
+Use this on official Slide 3.
 
-## Slide 3 rules
+| File | Use |
+|---|---|
+| `architecture.svg` | In-repo diagram (renders on GitHub) |
+| `architecture.png` | Original notebook scan — upload via GitHub web UI if missing |
 
-- This is the only required visual on the official 6-slide portal PPT.
-- Number the flow 1 Capture → 2 Privacy Engine → 3 Output → 4 Sanitizer → 5 Policy Gate → 6 Remote Agent → 7 Local Executor.
-- Caption: raw screenshot does not leave the device before Policy Gate.
-- Do not replace this drawing with stock AI-brain art.
+Caption: raw screenshot does not leave the device before Policy Gate.
 
-If `architecture.png` is missing from this folder, upload the scan from the team notebook before rendering GitHub preview.
+Do not replace with stock AI-brain art.
